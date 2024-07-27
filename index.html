@@ -46,7 +46,7 @@
               Pose
               Generation via Diffusion Models</h1>
             <div class="is-size-3 publication-venue">
-              SIGGRAPH 2023 (Journal Track)
+              SIGGRAPH 2024 (Journal Track)
             </div>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
@@ -86,7 +86,7 @@
                 </span>
                 <!-- Video Link. -->
                 <span class="link-block">
-                  <a href="https://youtu.be/UE9Uea-HjHQ" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://youtu.be/l4BGcyawAh8" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-youtube"></i>
                     </span>
@@ -100,18 +100,29 @@
                     <span class="icon">
                         <i class="fab fa-github"></i>
                     </span>
-                    <span>Code (upcoming)</span>
+                    <span>Code</span>
                   </a>
                 </span>
                 <!-- Dataset Link. -->
                 <span class="link-block">
-                  <span class="external-link button is-normal is-rounded is-dark"
-                    style="margin-top: 5px; margin-bottom: 5px;">
+                  <a href="https://github.com/DiffPoseTalk/DiffPoseTalk"
+                   class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Dataset (upcoming)</span>
-                  </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+                <!-- Poster Link. -->
+                <span class="link-block">
+                  <a href="./poster.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-newspaper"></i>
+                    </span>
+                    <span>Poster</span>
+                  </a>
+                </span>
                   <!-- <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -165,8 +176,8 @@
               training our model on reconstructed 3DMM parameters from a high-quality, in-the-wild audio-visual dataset.
               Our extensive
               experiments and user study demonstrate that our approach outperforms state-of-the-art methods. The code
-              and dataset will
-              be made publicly available.
+              and dataset are
+              at <a href="https://diffposetalk.github.io">https://diffposetalk.github.io</a>.
             </p>
           </div>
         </div>
@@ -189,13 +200,12 @@
     <div class="container is-max-desktop" style="width: 100%;">
       <div class="hero-body">
         <!-- Paper video. -->
-        <div class="columns is-centered">
-          <div class="column is-four-fifths has-text-centered">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
             <h2 class="title is-3">Video</h2>
             <div class="publication-video">
-              <video id="demo-video" controls preload="metadata" width="100%">
-                <source src="./static/videos/demo.mp4" type="video/mp4">
-              </video>
+              <iframe src="https://www.youtube.com/embed/l4BGcyawAh8?rel=0&amp;showinfo=0" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -207,13 +217,17 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@misc{sun2023diffposetalk,
-  title={DiffPoseTalk: Speech-Driven Stylistic 3D Facial Animation and Head Pose Generation via Diffusion Models}, 
-  author={Zhiyao Sun and Tian Lv and Sheng Ye and Matthieu Gaetan Lin and Jenny Sheng and Yu-Hui Wen and Minjing Yu and Yong-jin Liu},
-  year={2023},
-  eprint={2310.00434},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
+      <pre><code>@article{sun2024diffposetalk,
+  title={DiffPoseTalk: Speech-Driven Stylistic 3D Facial Animation and Head Pose Generation via Diffusion Models},
+  author={Sun, Zhiyao and Lv, Tian and Ye, Sheng and Lin, Matthieu and Sheng, Jenny and Wen, Yu-Hui and Yu, Minjing and Liu, Yong-Jin},
+  journal={ACM Transactions on Graphics (TOG)},
+  doi={10.1145/3658221},
+  volume={43},
+  number={4},
+  articleno={46},
+  numpages={9},
+  year={2024},
+  publisher={ACM New York, NY, USA}
 }</code></pre>
     </div>
   </section>
